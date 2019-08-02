@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="author" content="Henrique Tofanin Silva">
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+
+        <title>Challenge - Distributed System</title>
+
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+        <link href="app.css" rel="stylesheet">
+    </head>
+    <body>
+        <main role="main">
+            <section class="login">
+                <form onsubmit="false">
+                    <div class="row">
+                        <h4 class="title">Challenge - Distributed System</h4>
+                    </div>
+                    <div class="row">
+                        <input type="text" id="input-username" placeholder="Username">
+                    </div>
+                    <div class="row">
+                        <input type="password" id="input-password" placeholder="Password">
+                    </div>
+                    <div class="row">
+                        <button id="btn-recovery" type="button">Password Recovery</button>
+                        <button id="btn-login" type="button">Login</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+        <script>
+            var producerAPI = 'http://producer.distributed.system:8081';
+        </script>
+        <script src="app.js"></script>
+  </body>
+</html>
